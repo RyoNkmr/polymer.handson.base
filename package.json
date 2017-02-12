@@ -1,0 +1,32 @@
+{
+  "name": "polymer.handson.base",
+  "version": "1.0.0",
+  "description": "Empty Polymer Project For Google Codelabs",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "scripts": {
+    "polymer": "polymer",
+    "bower": "bower",
+    "postinstall": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sizuhiko/polymer.handson.base.git"
+  },
+  "keywords": [
+    "Polymer"
+  ],
+  "author": "sizuhiko@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sizuhiko/polymer.handson.base/issues"
+  },
+  "homepage": "https://github.com/sizuhiko/polymer.handson.base#readme",
+  "dependencies": {
+    "bower": "^1.8.0",
+    "polymer-cli": "^0.17.0"
+  }
+}
